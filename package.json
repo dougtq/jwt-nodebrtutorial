@@ -1,0 +1,26 @@
+{
+  "name": "jwt-nodebrtutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougtq/jwt-nodebrtutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougtq/jwt-nodebrtutorial/issues"
+  },
+  "homepage": "https://github.com/dougtq/jwt-nodebrtutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "standard": "^10.0.3"
+  }
+}
