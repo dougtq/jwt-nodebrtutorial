@@ -42,7 +42,7 @@ app.get('/session', (req, res) => {
     if (err)
       return res.status(401).json({ error: ' Session Impossible to decode' });
 
-    return res.json({ username : data.username });
+    return res.json({ token : data });
   });
 
 });
